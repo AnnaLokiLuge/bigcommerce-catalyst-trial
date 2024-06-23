@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #f0f8ff; /* Alice Blue */
+    color: #2e4a62; /* Dark Blue Gray */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #e6f2ff; /* Light Sky Blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1e3c59; /* Dark Blue */
+}
+
+h2 {
+    color: #3b5998; /* Facebook Blue */
+}
